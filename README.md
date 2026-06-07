@@ -1,0 +1,1 @@
+# realme_mt6781_vendor
