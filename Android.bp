@@ -19264,8 +19264,8 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "both",
 	check_elf_files: false,
-	prefer: true,
-	system_ext_specific: true,
+	prefer: false,
+	device_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -19284,8 +19284,8 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "both",
 	check_elf_files: false,
-	prefer: true,
-	system_ext_specific: true,
+	prefer: false,
+	device_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -19324,8 +19324,8 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "both",
 	check_elf_files: false,
-	prefer: true,
-	system_ext_specific: true,
+	prefer: false,
+	device_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -19344,8 +19344,8 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "both",
 	check_elf_files: false,
-	prefer: true,
-	system_ext_specific: true,
+	prefer: false,
+	device_specific: true,
 }
 
 cc_prebuilt_library_shared {
