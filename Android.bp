@@ -19316,16 +19316,15 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so"],
+			srcs: ["proprietary/vendor/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so"],
 		},
 		android_arm64: {
-			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so"],
+			srcs: ["proprietary/vendor/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so"],
 		},
 	},
 	compile_multilib: "both",
 	check_elf_files: false,
 	prefer: true,
-	device_specific: true,
 }
 
 cc_prebuilt_library_shared {
