@@ -20186,14 +20186,6 @@ cc_prebuilt_binary {
 	soc_specific: true,
 }
 
-sh_binary {
-	name: "chipinfo",
-	owner: "realme",
-	src: "proprietary/vendor/bin/chipinfo",
-	filename: "chipinfo",
-	soc_specific: true,
-}
-
 cc_prebuilt_binary {
 	name: "dmc_core",
 	owner: "realme",
